@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nikhil Goud Kalali — Agentic AI &amp; Java Backend Engineer</title>
+<meta name="description" content="Nikhil Goud Kalali — Software Engineer building production Agentic AI systems and Java/Spring Boot microservices. Multi-agent orchestration, RAG tool pre-filtering, long-term agent memory and Spring AI backends." />
+<meta name="author" content="Nikhil Goud Kalali" />
+<meta name="theme-color" content="#0a0b10" />
+
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Nikhil Goud Kalali — Agentic AI &amp; Java Backend Engineer" />
+<meta property="og:description" content="Production Agentic AI platform work: multi-agent orchestration, RAG tool pre-filtering, agent memory, and Spring Boot microservices." />
+<meta property="og:image" content="assets/img/og-image.png" />
+<meta property="og:url" content="https://nikhilkalali.dev/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nikhil Goud Kalali — Agentic AI &amp; Java Backend Engineer" />
+<meta name="twitter:description" content="Production Agentic AI platform work: multi-agent orchestration, RAG tool pre-filtering, agent memory, and Spring Boot microservices." />
+<meta name="twitter:image" content="assets/img/og-image.png" />
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('nk-theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true">NK</span>
+      <span class="brand__text">Nikhil&nbsp;Goud&nbsp;Kalali</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <div class="nav__mobile-actions">
+        <a class="btn btn--primary btn--sm" href="assets/files/Nikhil_Goud_Kalali_Resume.pdf" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+          Resume
+        </a>
+      </div>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 019.5 4a8.5 8.5 0 1010.5 10.5z"/></svg>
+      </button>
+      <a class="btn btn--primary btn--sm nav__cta" href="assets/files/Nikhil_Goud_Kalali_Resume.pdf" download>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+        Resume
+      </a>
+      <button class="icon-btn nav__burger" id="navBurger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav__progress" id="navProgress" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+  <span id="top"></span>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <p class="pill reveal">
+          <span class="pill__dot" aria-hidden="true"></span>
+          Available for new roles · Immediate notice
+        </p>
+
+        <h1 class="hero__title reveal" data-delay="1">
+          Nikhil Goud Kalali
+        </h1>
+
+        <p class="hero__roles reveal" data-delay="2">
+          <span class="hero__roles-prefix">I build</span>
+          <span class="typewriter" id="typewriter" aria-live="polite">production agentic AI systems.</span>
+        </p>
+
+        <p class="hero__lede reveal" data-delay="3">
+          Software Engineer at <strong>Vision Waves</strong>, where I own both sides of an agentic product:
+          the <strong>Java / Spring Boot microservices</strong> behind it and the <strong>agent runtime</strong> in front of it —
+          multi-agent orchestration, RAG-powered tool selection, and long-term agent memory on a production SaaS platform.
+        </p>
+
+        <div class="hero__cta reveal" data-delay="4">
+          <a class="btn btn--primary" href="assets/files/Nikhil_Goud_Kalali_Resume.pdf" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+            Download Resume
+          </a>
+          <a class="btn btn--ghost" href="#work">
+            See the platform
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6"/></svg>
+          </a>
+          <a class="btn btn--quiet" href="mailto:nikhilgoud8837@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7.5A2.5 2.5 0 015.5 5h13A2.5 2.5 0 0121 7.5v9a2.5 2.5 0 01-2.5 2.5h-13A2.5 2.5 0 013 16.5v-9z"/><path d="M3.5 7l8.5 6 8.5-6"/></svg>
+            nikhilgoud8837@gmail.com
+          </a>
+        </div>
+
+        <ul class="hero__meta reveal" data-delay="5">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.4 7-11a7 7 0 10-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Indore, India · Open to Hyderabad / Bengaluru / Pune / Remote</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> 2 years in production · 8-month full-stack Java training (Q-Spiders)</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal" data-delay="3">
+        <div class="portrait">
+          <div class="portrait__frame">
+            <img src="assets/img/nikhil.jpeg" width="784" height="1024" alt="Portrait of Nikhil Goud Kalali" />
+          </div>
+          <div class="portrait__glow" aria-hidden="true"></div>
+          <div class="chip chip--1" aria-hidden="true">Java · Spring Boot</div>
+          <div class="chip chip--2" aria-hidden="true">Multi-Agent Orchestration</div>
+          <div class="chip chip--3" aria-hidden="true">RAG · Vector Search</div>
+          <div class="chip chip--4" aria-hidden="true">Agent Memory</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="stats reveal" data-delay="2">
+        <div class="stat">
+          <span class="stat__num" data-count-to="2" data-suffix="">2</span>
+          <span class="stat__label">Years shipping production software</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count-to="3" data-suffix="">3</span>
+          <span class="stat__label">Agent archetypes orchestrated</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count-to="8" data-suffix="+">8+</span>
+          <span class="stat__label">Enterprise systems connected on the platform</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count-to="30" data-prefix="~" data-suffix="%">~30%</span>
+          <span class="stat__label">Faster agent routing after the SwitchAgent rebuild</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">01 — About</p>
+        <h2 class="section__title">A backend engineer who ended up owning the agent runtime</h2>
+        <p class="section__sub">
+          I started from zero programming in an 8-month Java full-stack program, joined a startup as my first
+          company, and ended up owning both the microservices and the AI features shipping on top of them.
+        </p>
+      </header>
+
+      <div class="grid grid--2 about">
+        <div class="card card--prose reveal">
+          <p>
+            I'm a <strong>Software Engineer at Vision Waves</strong> (Indore) working on a production
+            <strong>Agentic AI platform</strong> — software that turns a company's existing APIs, databases,
+            documents and event streams into AI agents that people talk to over chat or voice.
+          </p>
+          <p>
+            Most of my work sits on the seam between <strong>AI and backend engineering</strong>. On the AI side I
+            built the multi-agent routing engine and the RAG-based tool pre-filtering that decides which tools an
+            LLM even sees. On the backend side I fully own <code>agentic-ai-service</code> — a Spring Boot
+            microservice with REST APIs, JPA/Hibernate on MySQL, and JWT validation via Spring Security.
+          </p>
+          <p>
+            Working in a startup meant owning problems nobody had scoped for me. That has made me comfortable
+            reading unfamiliar codebases, deciding an architecture, shipping it, and then supporting it.
+          </p>
+          <p class="muted">
+            <strong>How I work:</strong> I write my own claims carefully. Where a number on this site was
+            observed rather than formally benchmarked, I say so. Where a capability was built by a teammate, I
+            label it — see the ownership badges throughout.
+          </p>
+        </div>
+
+        <div class="stack">
+          <h3 class="stack__title reveal">What I own end-to-end</h3>
+          <p class="stack__note reveal">In priority order — the things I can defend line by line, strongest first.</p>
+          <ul class="own-list">
+            <li class="reveal"><span class="own-rank" aria-hidden="true">01</span><span class="own-badge own-badge--me">Built</span><div><strong>Agentic AI platform — agent runtime &amp; orchestration</strong><span>Conversational, Flow-Driven and Task agent archetypes for multi-agent orchestration and autonomous execution, delivered over chat, voice, phone and avatar.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">02</span><span class="own-badge own-badge--me">Built</span><div><strong>SwitchAgent orchestration engine</strong><span>Parent/child agent routing with runtime-generated <code>SwitchTo&lt;agent&gt;</code> tools, bidirectional handoff and multi-level hierarchies — observed ~30% faster routing.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">03</span><span class="own-badge own-badge--me">Built</span><div><strong>Agent versioning &amp; validity lifecycle</strong><span><code>DRAFT → WAITING_FOR_APPROVAL → APPROVED / REJECTED → ACTIVE → RETIRED</code>, with Lead approval, scheduled start/end dates and <code>DRAFT_VERSION</code> cloning so the live agent is never edited in place.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">04</span><span class="own-badge own-badge--me">Built</span><div><strong>RAG tool pre-filtering</strong><span>Embedding-based selection so an agent with 100 tools only ships the top 5 to the LLM — plus my “exclude from RAG” bypass toggle for critical tools.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">05</span><span class="own-badge own-badge--me">Built</span><div><strong>Long-term episodic memory &amp; conversational handoff</strong><span>Last 5 conversations summarised into the current prompt for cross-session continuity, with context-preserving agent-to-agent escalation.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">06</span><span class="own-badge own-badge--me">Built</span><div><strong><code>agentic-ai-service</code> backend</strong><span>Java, Spring Boot, Spring MVC, Spring Data JPA/Hibernate, MySQL, JWT validation, and the DTO-projection optimisation that stopped the UI loading relations it never used.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">07</span><span class="own-badge own-badge--me">Built</span><div><strong>Dynamic variable injection</strong><span><code>{moduleName}</code>-style placeholders let other teams' modules pass context like a <code>moduleId</code> or auth token straight into prompts and tool behaviour.</span></div></li>
+            <li class="reveal"><span class="own-rank" aria-hidden="true">08</span><span class="own-badge own-badge--team">Platform</span><div><strong>Protocol, observability &amp; voice layers</strong><span>A2A v0.3, MCP transports, Skills Library, execution tracing and STT/TTS voice — team-owned; I integrate with them directly and know their internals and limits.</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">02 — Skills</p>
+        <h2 class="section__title">The stack I actually ship with</h2>
+        <p class="section__sub">Java and Spring on the backend, with LLM orchestration and retrieval on top.</p>
+      </header>
+
+      <div class="skills">
+        <article class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">☕</span>Languages</h3>
+          <ul class="tags">
+            <li class="tag tag--strong">Java</li>
+            <li class="tag">SQL</li>
+            <li class="tag">TypeScript</li>
+            <li class="tag">JavaScript</li>
+            <li class="tag">HTML5 / CSS3</li>
+          </ul>
+        </article>
+
+        <article class="skill-card reveal" data-delay="1">
+          <h3><span class="skill-card__icon" aria-hidden="true">⚙️</span>Backend</h3>
+          <ul class="tags">
+            <li class="tag tag--strong">Spring Boot</li>
+            <li class="tag tag--strong">Spring AI</li>
+            <li class="tag">Spring MVC</li>
+            <li class="tag">Spring Data JPA</li>
+            <li class="tag">Hibernate</li>
+            <li class="tag">Spring Security · JWT</li>
+            <li class="tag">REST API design</li>
+            <li class="tag">Microservices</li>
+          </ul>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">🧠</span>Agentic AI</h3>
+          <ul class="tags">
+            <li class="tag tag--strong">Multi-agent orchestration</li>
+            <li class="tag tag--strong">RAG pipelines</li>
+            <li class="tag">LLM integration</li>
+            <li class="tag">Tool / function calling</li>
+            <li class="tag">Embeddings &amp; vector search</li>
+            <li class="tag">Semantic pre-filtering</li>
+            <li class="tag">Agent memory design</li>
+            <li class="tag">Agent lifecycle &amp; governance</li>
+            <li class="tag">Prompt engineering</li>
+            <li class="tag">MCP · A2A <span class="tag__note">platform</span></li>
+            <li class="tag">Intent classification / NER <span class="tag__note">platform</span></li>
+            <li class="tag">OPA policy engine <span class="tag__note">platform</span></li>
+          </ul>
+        </article>
+
+        <article class="skill-card reveal" data-delay="1">
+          <h3><span class="skill-card__icon" aria-hidden="true">🗄️</span>Data</h3>
+          <ul class="tags">
+            <li class="tag tag--strong">MySQL</li>
+            <li class="tag">Vector databases</li>
+            <li class="tag">PostgreSQL <span class="tag__note">familiar</span></li>
+            <li class="tag">Cassandra <span class="tag__note">familiar</span></li>
+            <li class="tag">SQL tuning</li>
+          </ul>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3><span class="skill-card__icon" aria-hidden="true">🖥️</span>Frontend</h3>
+          <ul class="tags">
+            <li class="tag">Angular</li>
+            <li class="tag">TypeScript</li>
+            <li class="tag">Bootstrap</li>
+            <li class="tag">REST integration</li>
+          </ul>
+        </article>
+
+        <article class="skill-card reveal" data-delay="1">
+          <h3><span class="skill-card__icon" aria-hidden="true">🚢</span>DevOps &amp; tooling</h3>
+          <ul class="tags">
+            <li class="tag">Docker</li>
+            <li class="tag">AWS</li>
+            <li class="tag">GCP</li>
+            <li class="tag">Maven · Gradle</li>
+            <li class="tag">Jenkins · GitHub Actions</li>
+            <li class="tag">Git</li>
+            <li class="tag">JUnit · Mockito</li>
+            <li class="tag">Postman</li>
+            <li class="tag">Cursor · Claude AI</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">03 — Experience</p>
+        <h2 class="section__title">Where I've worked</h2>
+      </header>
+
+      <ol class="timeline">
+        <li class="tl reveal">
+          <div class="tl__marker" aria-hidden="true"></div>
+          <div class="tl__body">
+            <div class="tl__head">
+              <div>
+                <h3>Software Engineer — AI/Agentic Systems &amp; Backend Engineering</h3>
+                <p class="tl__org">Vision Waves · Indore, India</p>
+              </div>
+              <p class="tl__when">Sep 2024 – Present · ~2 yrs</p>
+            </div>
+            <ul class="bullets">
+              <li><span class="own-badge own-badge--me">Owned</span> Architected and build features on a SaaS <strong>Agentic AI platform</strong> supporting Conversational, Flow-Driven and Task agent archetypes, for multi-agent orchestration and fully autonomous execution.</li>
+              <li><span class="own-badge own-badge--team">Platform</span> Delivered multi-channel interaction over <strong>chat, voice, phone and avatar</strong> touchpoints, plus the visual flow view that shows which agent ran, which tool responded and what came back.</li>
+              <li><span class="own-badge own-badge--me">Owned</span> Designed <strong>SwitchAgent</strong>, a multi-agent routing engine for agent-to-agent routing and modular sub-agent composition: a dedicated <code>SwitchTo&lt;agent&gt;</code> tool is generated per sub-agent at runtime, with handoff back to the parent and multi-level hierarchies. Observed <strong>~30% faster routing</strong> — maintainability was the real driver, the speed gain a side effect.</li>
+              <li><span class="own-badge own-badge--me">Owned</span> Implemented the full <strong>agent governance lifecycle and versioning system</strong> — <code>DRAFT → WAITING_FOR_APPROVAL → APPROVED / REJECTED → ACTIVE → RETIRED</code> — with Lead/Senior approval and remarks, configurable <strong>scheduled validity windows</strong> (start date activates, end date auto-retires), and safe iteration via <code>DRAFT_VERSION</code> cloning, so only validated agents reach production and the live version is never disrupted.</li>
+              <li><span class="own-badge own-badge--me">Owned</span> Built <strong>RAG-based tool pre-filtering</strong>: an autonomous agent generates ~50 representative questions per sub-agent, those are embedded into a vector store, and only the top-5 most relevant tools reach the LLM on each call. Added an <strong>“exclude from RAG”</strong> toggle so critical tools always bypass the filter.</li>
+              <li><span class="own-badge own-badge--me">Owned</span> Built <strong>long-term episodic memory</strong> — the last 5 conversations summarised and appended to the current prompt — reused the same RAG infrastructure for contextual retrieval, supported <strong>Conversational Handoff</strong> for context-preserving agent-to-agent escalation, and added <strong>dynamic variable injection</strong> so embedding teams can pass context like <code>{moduleId}</code> into prompts at runtime.</li>
+              <li><span class="own-badge own-badge--me">Owned</span> Fully own <code>agentic-ai-service</code>: REST APIs for agent CRUD, conversations and tool configuration; JPA/Hibernate entity modelling; JWT validation with Spring Security; and a DTO-projection refactor of the agent list endpoint so the UI stopped loading heavy relations it never used.</li>
+              <li><span class="own-badge own-badge--team">Team</span> Worked inside a platform supporting <strong>Google A2A v0.3</strong> peer-agent delegation (Agent Card discovery, async push notifications, bearer auth) and <strong>MCP</strong> integration across STDIO/SSE transports — 8+ enterprise systems (Salesforce, ServiceNow, GitHub, MySQL, Cassandra) via credential-isolated adapters — plus a <strong>Skills Library</strong> of portable <code>SKILL.md</code> / <code>.zip</code> reasoning modules, and <strong>execution-trace observability</strong> (per-step timing, token/cost breakdown, provenance log) associated with ~20% operational cost reduction. All team-owned; I integrate with them directly.</li>
+              <li><span class="own-badge own-badge--team">Team</span> STT/TTS pipelines on GCP and real-time audio processing with state-machine workflow handlers for stateful multi-turn voice conversations.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl reveal">
+          <div class="tl__marker" aria-hidden="true"></div>
+          <div class="tl__body">
+            <div class="tl__head">
+              <div>
+                <h3>Java Full-Stack Trainee</h3>
+                <p class="tl__org">Q-Spiders · 8-month full-stack program</p>
+              </div>
+              <p class="tl__when">2024</p>
+            </div>
+            <ul class="bullets">
+              <li>Learned programming from scratch — Java, collections, OOP, SQL, JDBC, web fundamentals — then built REST-backed web applications end to end.</li>
+              <li>That foundation is why I can own a service on both sides: the Spring Boot API and the LLM behaviour it exposes.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ FLAGSHIP PROJECT ============ -->
+  <section class="section section--alt" id="work">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">04 — Selected work</p>
+        <h2 class="section__title">Agentic AI Platform <span class="section__title-sub">Vision Waves · SaaS</span></h2>
+        <p class="section__sub">
+          A platform that turns enterprise artifacts — REST APIs, microservices, SQL/NoSQL databases, documents,
+          event streams, MCP and A2A endpoints — into <strong>classified tools and composed agents</strong> that
+          people use through chat, voice or phone, with a visual flow view of what the agent actually did.
+        </p>
+        <ul class="legend reveal">
+          <li><span class="own-badge own-badge--me">Built</span> designed, implemented and owned by me</li>
+          <li><span class="own-badge own-badge--team">Platform</span> shipped by the team; I integrate with it and know it in depth</li>
+        </ul>
+      </header>
+
+      <!-- runtime pipeline -->
+      <figure class="pipeline reveal">
+        <figcaption class="pipeline__caption">Every request runs the same pipeline — my work is concentrated in the highlighted stages.</figcaption>
+        <ol class="pipeline__flow">
+          <li class="pipe-step"><span class="pipe-step__n">01</span>User input<small>chat · voice · API</small></li>
+          <li class="pipe-step">Understanding<small>intent · NER</small></li>
+          <li class="pipe-step pipe-step--mine">Instructions + memory<small>episodic summary · injected vars</small></li>
+          <li class="pipe-step pipe-step--mine">Semantic pre-filter<small>top-5 tools by similarity</small></li>
+          <li class="pipe-step pipe-step--mine">LLM inference<small>tool-calling decision</small></li>
+          <li class="pipe-step">Tool execution<small>safety-gated actions</small></li>
+          <li class="pipe-step">Safety &amp; governance<small>lifecycle · approval · validity · RBAC</small></li>
+          <li class="pipe-step">Response + trace<small>timing · tokens · provenance</small></li>
+        </ol>
+      </figure>
+
+      <!-- agent archetypes -->
+      <div class="grid grid--3 archetypes">
+        <article class="card reveal">
+          <h3>Conversational agent</h3>
+          <p>Human-facing chat and voice. Uses tools for actions, MCP for live context, skills for reasoning and memory for personalisation, handing complex work off to task agents.</p>
+          <p class="micro">Primitives: tools · MCP · skills · memory</p>
+        </article>
+        <article class="card reveal" data-delay="1">
+          <h3>Flow-driven agent</h3>
+          <p>A visual workflow graph of tool nodes, condition branches, sub-agent calls and human approval gates — deterministic execution you can actually look at.</p>
+          <p class="micro">Primitives: tools · MCP · sub-agents · approval gates</p>
+        </article>
+        <article class="card reveal" data-delay="2">
+          <h3>Task agent</h3>
+          <p>Event-triggered planner. Breaks a goal into steps, executes tools, delegates to peer agents, observes results and self-corrects.</p>
+          <p class="micro">Primitives: tools · A2A · MCP · skills</p>
+        </article>
+      </div>
+
+      <!-- deep dives -->
+      <div class="dives reveal">
+        <div class="dives__head">
+          <h3>Deep dives into what I built</h3>
+          <div class="tabs" role="tablist" aria-label="Project deep dives">
+            <button class="tab is-active" role="tab" id="tab-switch" aria-controls="panel-switch" aria-selected="true">SwitchAgent</button>
+            <button class="tab" role="tab" id="tab-versioning" aria-controls="panel-versioning" aria-selected="false">Versioning &amp; validity</button>
+            <button class="tab" role="tab" id="tab-rag" aria-controls="panel-rag" aria-selected="false">RAG pre-filtering</button>
+            <button class="tab" role="tab" id="tab-memory" aria-controls="panel-memory" aria-selected="false">Episodic memory</button>
+            <button class="tab" role="tab" id="tab-vars" aria-controls="panel-vars" aria-selected="false">Dynamic variables</button>
+            <button class="tab" role="tab" id="tab-backend" aria-controls="panel-backend" aria-selected="false">Backend service</button>
+          </div>
+        </div>
+
+        <!-- SwitchAgent -->
+        <div class="panel is-active" role="tabpanel" id="panel-switch" aria-labelledby="tab-switch">
+          <div class="panel__grid">
+            <div>
+              <h4>The problem</h4>
+              <p>
+                Every routing decision went through a single shared <code>switchagent</code> tool whose description
+                listed <em>all</em> sub-agents at once. Adding or removing a sub-agent meant editing that one shared
+                config — fine for whoever wrote it, dangerous for anyone else, and it forced the LLM to reason over
+                a large blob of text on every single call.
+              </p>
+              <h4>What I built</h4>
+              <ul class="ticks">
+                <li>Each sub-agent's “when should I handle this?” description becomes a <strong>dedicated tool description</strong>, exposed as <code>SwitchTo&lt;agent_name&gt;</code> and attached to the parent at runtime.</li>
+                <li>When the parent LLM calls it, the response returns the agent name and the backend loads that sub-agent — control genuinely shifts, it's not a prompt trick.</li>
+                <li>Every sub-agent automatically receives a <code>switchAgent</code> tool that knows its parent, so out-of-scope questions hand control back up.</li>
+                <li>Multi-level parent/child hierarchies fall out of the same mechanism.</li>
+                <li>Routing stays <strong>purely LLM judgement</strong> on the tool description — no keyword matching or confidence scoring layered on top.</li>
+              </ul>
+            </div>
+            <aside class="panel__aside">
+              <h5>Why it mattered</h5>
+              <p class="aside-lead">Maintainability first, speed second.</p>
+              <ul class="mini-list">
+                <li><strong>Before:</strong> one shared tool, manual edits, large description on every call.</li>
+                <li><strong>After:</strong> per-agent tools generated at runtime — add or remove an agent without touching shared config.</li>
+                <li><strong>Observed effect:</strong> routing roughly ~30% faster, because each call now reasons over a small focused description. Observed before/after, not a formal benchmark — the maintainability fix was the actual driver.</li>
+              </ul>
+              <ul class="tags tags--sm">
+                <li class="tag">Java</li><li class="tag">Spring AI</li><li class="tag">Tool calling</li><li class="tag">Agent orchestration</li>
+              </ul>
+            </aside>
+          </div>
+          <pre class="code" aria-label="SwitchAgent flow example"><code>parent agent tools:  [ SearchTicket · CreateTicket · <em>SwitchToBilling</em> · <em>SwitchToNetwork</em> ]
+
+LLM → tool_call SwitchToBilling
+     ← "billing"
+
+backend: load sub-agent "billing"   (its own tools + switchAgent → parent)
+user   → billing-specific question
+LLM(billing) → tool_call switchAgent   (out of scope, hands back up)</code></pre>
+        </div>
+
+        <!-- Agent versioning & validity -->
+        <div class="panel" role="tabpanel" id="panel-versioning" aria-labelledby="tab-versioning" hidden>
+          <div class="panel__head">
+            <span class="own-badge own-badge--me">Built</span>
+            <p class="panel__kicker">Agent governance lifecycle · version cloning · scheduled validity windows</p>
+          </div>
+
+          <p style="max-width:80ch">
+            An AI agent that a user is still configuring must never be the same agent the business runs in
+            production. I built the <strong>versioning and validity system</strong> that guarantees every agent
+            passes a controlled lifecycle — draft, approval, activation on a date, automatic retirement on a date —
+            before any other module is allowed to use it.
+          </p>
+
+          <h4>Lifecycle</h4>
+          <ol class="life-flow">
+            <li class="life-node life-node--draft">
+              <span class="life-node__state">DRAFT</span>
+              <span class="life-node__desc">Default on creation — connect tools, test, validate and modify freely.</span>
+            </li>
+            <li class="life-arrow" aria-hidden="true">→</li>
+            <li class="life-node life-node--wait">
+              <span class="life-node__state">WAITING_FOR_APPROVAL</span>
+              <span class="life-node__desc">Author is satisfied it works, submits it for review.</span>
+            </li>
+            <li class="life-arrow" aria-hidden="true">→</li>
+            <li class="life-node">
+              <span class="life-node__state">APPROVED</span>
+              <span class="life-node__desc">Team Lead / Manager reviews, adds a remark plus start and end dates.</span>
+            </li>
+            <li class="life-arrow" aria-hidden="true">→</li>
+            <li class="life-node life-node--live">
+              <span class="life-node__state">ACTIVE</span>
+              <span class="life-node__desc">Immediately, or automatically on a future start date. Other modules can now run it.</span>
+            </li>
+            <li class="life-arrow" aria-hidden="true">→</li>
+            <li class="life-node life-node--off">
+              <span class="life-node__state">RETIRED</span>
+              <span class="life-node__desc">Set automatically once the end date is reached.</span>
+            </li>
+          </ol>
+          <p class="life-branch">
+            <strong>REJECTED</strong> — the lead can send an agent back if it doesn't meet requirements; the author
+            keeps editing the draft and resubmits. And the activation logic is date-aware: if the approved
+            <strong>start date is today</strong> the agent goes straight <code>APPROVED → ACTIVE</code>; if it's a
+            <strong>future date</strong> it sits at <code>APPROVED</code> and flips to <code>ACTIVE</code> by itself
+            on that day.
+          </p>
+
+          <div class="rules-box">
+            <h4>Versioning rules I implemented</h4>
+            <ul class="ticks">
+              <li>Every agent starts at <strong>Version 1</strong>, and users can assign their own labels (Alpha, Beta, …).</li>
+              <li>An <strong>ACTIVE agent can never be modified directly</strong> — the live version is immutable by design.</li>
+              <li>To change it, the user clicks <strong>“New Draft Agent”</strong> and the system creates a <code>DRAFT_VERSION</code> — a copy of the active agent, which becomes <strong>Version 2</strong>.</li>
+              <li>The draft → approval → active cycle then repeats for that new version, so the live agent is never disrupted.</li>
+              <li>On activation of the new version, <strong>Version 1 automatically moves to <code>RETIRED</code></strong>.</li>
+              <li>Only once <code>ACTIVE</code> can other modules of the product use or run the agent.</li>
+            </ul>
+          </div>
+
+          <div class="panel__grid">
+            <div>
+              <h4>Why it matters</h4>
+              <ul class="ticks">
+                <li><strong>Clean audit trail</strong> across versions — what changed, who approved it, and when it was valid.</li>
+                <li>Only <strong>validated, approved agents</strong> ever run in production.</li>
+                <li><strong>Safe iteration</strong>: draft, test and iterate freely without touching the live agent.</li>
+                <li><strong>Validity control</strong> — start and end dates mean an agent only runs inside its intended window (campaign agents, seasonal assistants, time-boxed proofs of concept).</li>
+                <li><strong>Governance</strong> via Team Lead / Senior approval, which matters most on the hop from local testing to production.</li>
+              </ul>
+            </div>
+            <aside class="panel__aside">
+              <h5>Design decisions worth discussing</h5>
+              <ul class="mini-list">
+                <li><strong>Copy-on-draft, not edit-in-place:</strong> cloning means the active version can never be corrupted by a half-finished edit.</li>
+                <li><strong>Scheduled activation instead of a manual go-live step</strong> — the flip is driven by the approved start date, so it happens without someone remembering to press a button.</li>
+                <li><strong>Automatic retirement</strong> on the end date keeps stale agents from being invoked by other modules.</li>
+                <li>The approver's <strong>remark</strong> is stored with the version, so a rejection always explains what to fix.</li>
+              </ul>
+              <ul class="tags tags--sm">
+                <li class="tag">Java</li><li class="tag">Spring Boot</li><li class="tag">JPA / Hibernate</li><li class="tag">State machine</li><li class="tag">RBAC</li><li class="tag">Audit trail</li>
+              </ul>
+            </aside>
+          </div>
+
+          <pre class="code" aria-label="Agent versioning and validity example"><code>v1 "Billing Agent"  <em>[ACTIVE]</em>          immutable — other modules may run it
+  │  user clicks "New Draft Agent"  → system clones it
+  ▼
+v2 "Billing Agent"  <em>[DRAFT]</em>            edit, test, iterate freely
+  │  submit for review
+  ▼
+                  <em>[WAITING_FOR_APPROVAL]</em>
+  ├── reject + remark ──▶ <em>[REJECTED]</em> ──▶ edit draft, resubmit
+  │  approve + remark + start date (tomorrow) + end date
+  ▼
+v2 <em>[APPROVED]</em> ──(automatic flip on the start date)──▶ <em>[ACTIVE]</em>
+                                                              v1 ──▶ <em>[RETIRED]</em>
+
+start date = today  →  <em>APPROVED ──▶ ACTIVE</em> immediately
+end   date reached  →  <em>ACTIVE ──▶ RETIRED</em> automatically</code></pre>
+        </div>
+
+        <!-- RAG pre-filtering -->
+        <div class="panel" role="tabpanel" id="panel-rag" aria-labelledby="tab-rag" hidden>
+          <div class="panel__grid">
+            <div>
+              <h4>The problem</h4>
+              <p>
+                An agent with 100 connected tools shipped <strong>all 100 tool definitions to the LLM on every call</strong>.
+                That is expensive in tokens and — worse — it degrades selection accuracy. A model choosing 1 correct
+                tool out of 100 gets noticeably “confused”.
+              </p>
+              <h4>Indexing — once per sub-agent</h4>
+              <ol class="steps">
+                <li>Read the user's routing description (“when should the main agent hand off to this agent?”).</li>
+                <li>Trigger an autonomous agent that generates ~50 realistic questions a user might ask that should route here.</li>
+                <li>Description + generated questions become one document per tool.</li>
+                <li>Embed that document with a Llama-based embedding model and persist it to a vector store.</li>
+                <li>If the user later edits the description, they can review and edit the generated questions too.</li>
+              </ol>
+              <h4>Query time</h4>
+              <p>
+                The live question is embedded and similarity-searched against the vector store. Only the
+                <strong>top 5</strong> tools (configurable via application properties) are sent to the LLM — not all 100.
+              </p>
+              <h4>The extra feature I added</h4>
+              <p>
+                Some tools must always be visible regardless of similarity — critical or global ones. I built an
+                <strong>“exclude from RAG”</strong> toggle so selected tools bypass filtering entirely and are always
+                included alongside the top-5 results.
+              </p>
+            </div>
+            <aside class="panel__aside">
+              <h5>Impact &amp; honesty</h5>
+              <ul class="mini-list">
+                <li>Token cost per call drops sharply, because context shrinks from 100 tool schemas to 5.</li>
+                <li>Tool selection accuracy improves because the model is no longer choosing from noise.</li>
+                <li>No formal benchmark — a clear observed improvement, described as before/after.</li>
+                <li>Same lazy-loading philosophy as the skills system: load only what's relevant, at runtime.</li>
+              </ul>
+              <ul class="tags tags--sm">
+                <li class="tag">Embeddings</li><li class="tag">Vector store</li><li class="tag">Similarity search</li><li class="tag">Token cost</li><li class="tag">Llama</li>
+              </ul>
+            </aside>
+          </div>
+          <pre class="code" aria-label="RAG pre-filtering example"><code>100 connected tools
+      │
+      ├─ index time  : description + ~50 generated questions → embed → vector store
+      │
+user → embed(question) → similarity search
+      │
+      ├─ top 5 by similarity  ──┐
+      └─ "exclude from RAG"  ───┤
+                                ▼
+                    ~5 tool schemas → LLM  (instead of 100)</code></pre>
+        </div>
+
+        <!-- Episodic memory -->
+        <div class="panel" role="tabpanel" id="panel-memory" aria-labelledby="tab-memory" hidden>
+          <div class="panel__grid">
+            <div>
+              <h4>What it solves</h4>
+              <p>
+                An agent that forgets everything between sessions feels broken, and sending full raw history every
+                time is both slow and expensive. My long-term memory layer summarizes instead of replaying.
+              </p>
+              <h4>How it works</h4>
+              <ul class="ticks">
+                <li>Pull the user's <strong>last 5</strong> previous conversations.</li>
+                <li>Generate a clear summary of them.</li>
+                <li>Append that summary into the current prompt so the agent has continuity across sessions.</li>
+              </ul>
+              <h4>Where the boundary is</h4>
+              <p>
+                This is deliberately separate from the platform's <strong>session memory</strong>, which a teammate
+                built: raw ordered message history (user / assistant / tool-call / tool-result) held in-process via a
+                <code>SessionMemoryAdvisor</code> keyed on <code>conversationId</code> + <code>userId</code>, with older
+                messages compressed once a size threshold is hit. I integrate with it directly — handoffs and splits call
+                <code>getMessagesFromMemory</code> / <code>addDataInChatMemory</code> / <code>deleteDataFromMemory</code> —
+                and its known limitation is real: in-process storage means a restart or a scale-out fragments session
+                state, and Redis is the natural fix.
+              </p>
+            </div>
+            <aside class="panel__aside">
+              <h5>Design trade-off</h5>
+              <p class="aside-lead">Summary, not transcript.</p>
+              <ul class="mini-list">
+                <li>Cheap, bounded prompt growth regardless of how long the user has been talking.</li>
+                <li>Adds one summarisation call — latency accepted for continuity.</li>
+                <li>Falls back gracefully when a user has fewer than 5 past conversations.</li>
+              </ul>
+              <ul class="tags tags--sm">
+                <li class="tag">Spring AI</li><li class="tag">Summarisation</li><li class="tag">Prompt assembly</li><li class="tag">Session handoff</li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+
+        <!-- Dynamic variables -->
+        <div class="panel" role="tabpanel" id="panel-vars" aria-labelledby="tab-vars" hidden>
+          <div class="panel__grid">
+            <div>
+              <h4>The problem</h4>
+              <p>
+                Other teams embed our agent widget inside their own product modules. Those modules hold context the
+                agent needs — a <code>moduleId</code>, an auth token, the current record — but a prompt is written once
+                and reused everywhere.
+              </p>
+              <h4>What I built</h4>
+              <ul class="ticks">
+                <li>The embedding module passes custom parameters at invocation time.</li>
+                <li>Those values are injected into the prompt using <code>{variableName}</code> placeholder syntax.</li>
+                <li>Tool behaviour and instructions adapt to the embedding context automatically.</li>
+              </ul>
+              <h4>Example</h4>
+              <p>
+                A module passes <code>moduleId</code> when a user opens the agent from a specific list or page. The
+                value is substituted into <code>{moduleId}</code> inside the prompt, so the agent fetches and renders
+                data for exactly that context instead of asking the user where they meant.
+              </p>
+            </div>
+            <aside class="panel__aside">
+              <h5>Why it matters</h5>
+              <ul class="mini-list">
+                <li>One prompt serves many host products — no forked prompt copies.</li>
+                <li>Context-sensitive behaviour without recompiling or redeploying the agent.</li>
+                <li>Turns the agent widget into a reusable embeddable component for other teams.</li>
+              </ul>
+              <ul class="tags tags--sm">
+                <li class="tag">Prompt templating</li><li class="tag">Widget SDK</li><li class="tag">Multi-tenant context</li>
+              </ul>
+            </aside>
+          </div>
+          <pre class="code" aria-label="Dynamic variable injection example"><code>module (List page) ──▶ agent widget
+   params: { "moduleId": "cust-4821", "authToken": "***" }
+
+prompt: "You are a support agent for {moduleId}. Fetch the latest
+         activity for that record before answering."</code></pre>
+        </div>
+
+        <!-- Backend -->
+        <div class="panel" role="tabpanel" id="panel-backend" aria-labelledby="tab-backend" hidden>
+          <div class="panel__grid">
+            <div>
+              <h4>Scope</h4>
+              <p>
+                <code>agentic-ai-service</code> is one service in a broader microservices architecture at Vision Waves
+                — siblings like <code>prompt-analyzer</code> and the <code>x101</code> platform own their own domains and
+                this service integrates with them. I own this one end to end.
+              </p>
+              <h4>Stack</h4>
+              <ul class="ticks">
+                <li>Java, Spring Boot, Spring MVC, Spring Data JPA / Hibernate, REST APIs, MySQL.</li>
+                <li>Endpoints for agent CRUD, conversation handling and tool configuration.</li>
+                <li>Entity modelling across relationships such as Agent ↔ SubAgent and Agent ↔ Conversation.</li>
+                <li>Spring Security validating incoming JWTs (5-minute access token) and authorising on claims. Token <em>issuance and refresh</em> live with the company's API Management team — my service validates.</li>
+              </ul>
+              <h4>A real optimisation I made</h4>
+              <p>
+                On the agent search/list endpoint we were returning the full entity — with relations the UI never
+                displayed. I switched it to a <strong>DTO projection</strong> carrying only the fields the UI needs and
+                kept heavier related data lazy, so it isn't fetched or serialised unless actually needed.
+              </p>
+            </div>
+            <aside class="panel__aside">
+              <h5>Around it</h5>
+              <ul class="mini-list">
+                <li><strong>Docker &amp; CI/CD:</strong> images, containers, volumes; my code and JUnit/Mockito tests run through an existing Maven/Gradle → Jenkins/GitHub Actions → Docker/AWS pipeline. I write the tests, I didn't design the pipeline.</li>
+                <li><strong>Cloud:</strong> AWS for deployment, GCP for the voice (STT/TTS) side.</li>
+              </ul>
+              <ul class="tags tags--sm">
+                <li class="tag">Spring Boot</li><li class="tag">JPA / Hibernate</li><li class="tag">MySQL</li><li class="tag">JWT</li><li class="tag">DTO projection</li><li class="tag">Docker</li>
+              </ul>
+            </aside>
+          </div>
+          <pre class="code" aria-label="Backend service example"><code>// before — full entity graph serialised for a list view
+Agent findById(Long id)          // + relations, unnecessary fetching
+
+// after — only what the UI renders, heavy relations stay lazy
+@Query("select new com.app.dto.AgentSummary(a.id, a.name, a.status) from Agent a")
+List&lt;AgentSummary&gt; findSummaries();</code></pre>
+        </div>
+      </div>
+
+      <!-- platform layer -->
+      <div class="platform reveal">
+        <h3 class="platform__title">The layer I build on top of <span class="own-badge own-badge--team">Platform</span></h3>
+        <p class="platform__lede">
+          Shipped by teammates, integrated by me. I know these in real depth — including their limits — and I'm happy
+          to talk about them at a high level, but I'm not going to claim them as my own code.
+        </p>
+        <div class="grid grid--4 platform__grid">
+          <article class="mini-card">
+            <h4>MCP integration</h4>
+            <p>STDIO process and SSE streaming transports connecting 8+ enterprise systems — Salesforce, ServiceNow, GitHub, MySQL, Cassandra — through credential-isolated adapters.</p>
+          </article>
+          <article class="mini-card">
+            <h4>Google A2A v0.3</h4>
+            <p>Peer-agent delegation over HTTP: Agent Card discovery, async push notifications, bearer auth, state-transition history.</p>
+          </article>
+          <article class="mini-card">
+            <h4>Skills library</h4>
+            <p>Portable reasoning modules as <code>SKILL.md</code> / <code>.zip</code> — author once, attach to any agent, injected into context only when relevant.</p>
+          </article>
+          <article class="mini-card">
+            <h4>Execution observability</h4>
+            <p>Per-step timing, token &amp; cost breakdown and provenance logs surfaced in a live trace panel — associated with ~20% operational cost reduction. Also: OPA policy engine, human confirmation gates, AES-256 encrypted instructions, immutable audit log.</p>
+          </article>
+          <article class="mini-card">
+            <h4>Multi-channel delivery</h4>
+            <p>One runtime served over chat, voice, phone and avatar touchpoints, plus the flow-driven execution view that shows which agent ran, which tool responded and what data came back.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="container">
+      <header class="section__head reveal">
+        <p class="eyebrow">05 — Education</p>
+        <h2 class="section__title">Education &amp; certifications</h2>
+      </header>
+
+      <div class="grid grid--2">
+        <article class="card edu reveal">
+          <span class="edu__year">2020 – 2024</span>
+          <h3>B.Tech — Computer Science &amp; Engineering</h3>
+          <p class="edu__org">Malla Reddy College of Engineering and Technology</p>
+          <p class="edu__grade">CGPA 7.78 / 10</p>
+        </article>
+        <article class="card edu reveal" data-delay="1">
+          <span class="edu__year">2018 – 2020</span>
+          <h3>Intermediate — MPC</h3>
+          <p class="edu__org">Sandeepani Junior College</p>
+          <p class="edu__grade">CGPA 8.24 / 10</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="contact reveal">
+        <p class="eyebrow">06 — Contact</p>
+        <h2 class="contact__title">Open to AI / backend roles</h2>
+        <p class="contact__lede">
+          Actively looking for a Software Engineer role where agentic AI and Java backend work overlap — Hyderabad first,
+          then Bengaluru, Pune or remote. Immediate notice, and my calendar is genuinely free.
+        </p>
+
+        <div class="contact__actions">
+          <a class="btn btn--primary" href="assets/files/Nikhil_Goud_Kalali_Resume.pdf" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+            Download Resume (PDF)
+          </a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/nikhil-goud-kalali-465919213" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 9v9M6.5 6.2v.1M11 18v-5a2.5 2.5 0 015 0v5M11 9v9"/></svg>
+            LinkedIn
+          </a>
+          <button class="btn btn--quiet" type="button" id="copyEmail" data-email="nikhilgoud8837@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9h10v10H9z"/><path d="M15 5H5v10"/></svg>
+            <span id="copyEmailText">Copy email</span>
+          </button>
+        </div>
+
+        <ul class="contact__details">
+          <li><span>Email</span><a href="mailto:nikhilgoud8837@gmail.com">nikhilgoud8837@gmail.com</a></li>
+          <li><span>Phone</span><a href="tel:+916305443501">+91 63054 43501</a></li>
+          <li><span>Location</span>Indore, India · relocating to Hyderabad / Bengaluru / Pune</li>
+          <li><span>Notice</span>Immediate / negotiable</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year">2026</span> Nikhil Goud Kalali · Agentic AI &amp; Java Backend Engineer</p>
+    <p class="footer__note">
+      Figures marked “observed” were measured as before/after comparisons, not formal benchmarks. Platform-owned
+      capabilities are labelled as such.
+    </p>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nikhil Goud Kalali",
+  "jobTitle": "Software Engineer — AI/Agentic Systems & Backend Engineering",
+  "email": "mailto:nikhilgoud8837@gmail.com",
+  "telephone": "+91-63054-43501",
+  "url": "https://nikhilkalali.dev/",
+  "sameAs": ["https://www.linkedin.com/in/nikhil-goud-kalali-465919213"],
+  "address": { "@type": "PostalAddress", "addressLocality": "Indore", "addressCountry": "IN" },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Malla Reddy College of Engineering and Technology"
+  },
+  "worksFor": { "@type": "Organization", "name": "Vision Waves" },
+  "knowsAbout": [
+    "Agentic AI", "Multi-Agent Orchestration", "Retrieval Augmented Generation", "LLM Integration",
+    "Java", "Spring Boot", "Spring AI", "Microservices", "REST API Design", "MySQL", "Agentic AI"
+  ]
+}
+</script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
